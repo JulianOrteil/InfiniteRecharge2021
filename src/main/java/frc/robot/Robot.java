@@ -54,8 +54,8 @@ public class Robot extends TimedRobot {
   private WPI_TalonSRX frontRight;
   private WPI_TalonSRX backLeft;
   private WPI_TalonSRX backRight;
-  private WPI_TalonSRX middleMotorLeft;
-    private WPI_TalonSRX middleMotorRight;
+  private WPI_TalonSRX mml;
+  private WPI_TalonSRX mmr;
 
   private SpeedControllerGroup leftTrain;
   private SpeedControllerGroup rightTrain;
